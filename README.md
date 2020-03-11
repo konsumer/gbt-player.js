@@ -40,5 +40,6 @@ To build:
 
 ```sh
 make
+```
 
 This will overwrite `gbt-player.js` and `gbt-player.wasm`.
