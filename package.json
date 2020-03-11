@@ -1,12 +1,12 @@
 {
   "name": "gbt-player",
-  "version": "1.0.1",
+  "version": "0.0.0",
   "description": "Convert mod files to Gameboy data",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "gbt-player": "gbt-player.mjs"
+    "gbt-player": "gbt-player.js"
   },
   "repository": {
     "type": "git",
@@ -29,9 +29,5 @@
   "files": [
     "gbt-player.js",
     "gbt-player.wasm"
-  ],
-  "dependencies": {
-    "env": "0.0.2",
-    "wasi_unstable": "^0.1.3"
-  }
+  ]
 }
