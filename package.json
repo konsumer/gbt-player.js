@@ -1,0 +1,37 @@
+{
+  "name": "gbt-player",
+  "version": "1.0.0",
+  "description": "Convert mod files to Gameboy data",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gbt-player": "gbt-player.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konsumer/gbt-player.js.git"
+  },
+  "keywords": [
+    "gameboy",
+    "gbdk",
+    "music",
+    "sound",
+    "convert",
+    "mod"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konsumer/gbt-player.js/issues"
+  },
+  "homepage": "https://github.com/konsumer/gbt-player.js#readme",
+  "files": [
+    "gbt-player.js",
+    "gbt-player.wasm"
+  ],
+  "dependencies": {
+    "env": "0.0.2",
+    "wasi_unstable": "^0.1.3"
+  }
+}
